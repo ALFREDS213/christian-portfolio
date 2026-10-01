@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Projects — Christian Yusuf Alfred</title>
+
+    <meta
+        name="description"
+        content="Selected projects by Christian Yusuf Alfred, a final-year TJKT student exploring software development, backend systems, desktop applications, APIs, and databases."
+    >
+
+    <!-- Google Fonts -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <!-- Logo -->
+
+            <a
+                href="./index.html"
+                class="logo"
+                aria-label="Christian Yusuf Alfred - Home"
+            >
+                CYA<span>.</span>
+            </a>
+
+
+            <!-- Navigation -->
+
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./projects.html" class="active">Projects</a>
+                <a href="./skills.html">Skills</a>
+                <a href="./profile.html">Profile</a>
+                <a href="./journey.html">Journey</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+
+
+            <!-- Mobile Menu -->
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                Menu
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             PROJECT HERO
+        ========================== -->
+
+        <section class="projects-hero">
+
+            <div class="container">
+
+                <div class="section-eyebrow reveal">
+                    SELECTED WORK / 2024—2026
+                </div>
+
+
+                <h1 class="projects-heading reveal">
+
+                    Things I've
+                    <span>built.</span>
+
+                </h1>
+
+
+                <div class="projects-intro reveal">
+
+                    <p>
+                        A selection of applications and systems
+                        I've developed while exploring software
+                        development, backend systems, databases,
+                        and desktop applications.
+                    </p>
+
+
+                    <div class="projects-counter">
+
+                        <span>03</span>
+
+                        FEATURED PROJECTS
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECT LIST
+        ========================== -->
+
+        <section class="projects-list">
+
+            <div class="container">
+
+
+                <!-- PROJECT 01 -->
+
+                <article class="project-feature reveal">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+
+                            <span>
+                                BACKEND / API
+                            </span>
+
+                            <span>
+                                2026
+                            </span>
+
+                        </div>
+
+
+                        <h2>
+
+                            School Graduation
+                            <span>Platform</span>
+
+                        </h2>
+
+
+                        <p class="project-description">
+
+                            A backend system developed to support
+                            a school graduation platform, including
+                            student data management, CSV processing,
+                            announcements, countdown information,
+                            and API-based communication.
+
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>Express.js</span>
+                            <span>REST API</span>
+                            <span>JavaScript</span>
+                            <span>Database</span>
+                            <span>Postman</span>
+
+                        </div>
+
+
+                        <div class="project-role">
+
+                            <span>
+                                ROLE
+                            </span>
+
+                            <strong>
+                                Backend & Database Developer
+                            </strong>
+
+                        </div>
+
+
+                        <button
+                            class="project-open"
+                            type="button"
+                            data-project="graduation"
+                        >
+
+                            <span>
+                                View case study
+                            </span>
+
+                            <span>
+                                ↗
+                            </span>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="project-visual graduation-visual">
+
+                        <div class="visual-label">
+                            API / BACKEND
+                        </div>
+
+
+                        <div class="code-window">
+
+                            <div class="code-header">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+
+                            <pre><code>GET /api/announcement
+
+{
+  "is_open": true,
+  "countdown": "...",
+  "information": "...",
+  "server_time": "..."
+}</code></pre>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 02 -->
+
+                <article
+                    class="project-feature project-reverse reveal"
+                >
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+
+                            <span>
+                                DESKTOP APPLICATION
+                            </span>
+
+                            <span>
+                                2025—2026
+                            </span>
+
+                        </div>
+
+
+                        <h2>
+
+                            Railway Ticket
+                            <span>Reservation</span>
+
+                        </h2>
+
+
+                        <p class="project-description">
+
+                            A desktop application focused on
+                            railway ticket reservation and seat
+                            selection, built as a database-driven
+                            .NET application.
+
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>C#</span>
+                            <span>.NET</span>
+                            <span>WinForms</span>
+                            <span>Entity Framework 6</span>
+                            <span>BCrypt</span>
+
+                        </div>
+
+
+                        <div class="project-role">
+
+                            <span>
+                                ROLE
+                            </span>
+
+                            <strong>
+                                Desktop Application Developer
+                            </strong>
+
+                        </div>
+
+
+                        <button
+                            class="project-open"
+                            type="button"
+                            data-project="railway"
+                        >
+
+                            <span>
+                                View case study
+                            </span>
+
+                            <span>
+                                ↗
+                            </span>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="project-visual railway-visual">
+
+                        <div class="visual-label">
+                            DESKTOP / RESERVATION
+                        </div>
+
+
+                        <div class="railway-interface">
+
+                            <div class="interface-top">
+
+                                <span>
+                                    TRAIN RESERVATION
+                                </span>
+
+                                <span>
+                                    01 / 02
+                                </span>
+
+                            </div>
+
+
+                            <div class="route-display">
+
+                                <div>
+
+                                    <small>
+                                        FROM
+                                    </small>
+
+                                    <strong>
+                                        Station A
+                                    </strong>
+
+                                </div>
+
+
+                                <span>
+                                    →
+                                </span>
+
+
+                                <div>
+
+                                    <small>
+                                        TO
+                                    </small>
+
+                                    <strong>
+                                        Station B
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="seat-grid">
+
+                                <span></span>
+                                <span></span>
+                                <span class="selected"></span>
+                                <span></span>
+
+                                <span></span>
+                                <span class="occupied"></span>
+                                <span></span>
+                                <span></span>
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="selected"></span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 03 -->
+
+                <article class="project-feature reveal">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+
+                            <span>
+                                DESKTOP / DATABASE
+                            </span>
+
+                            <span>
+                                2025—2026
+                            </span>
+
+                        </div>
+
+
+                        <h2>
+
+                            Hotel Reservation
+                            <span>System</span>
+
+                        </h2>
+
+
+                        <p class="project-description">
+
+                            A database-driven hotel management
+                            application covering room reservations,
+                            room types, customers, check-in,
+                            check-out, and additional item requests.
+
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>C#</span>
+                            <span>.NET</span>
+                            <span>WinForms</span>
+                            <span>Entity Framework 6</span>
+                            <span>SQL Server</span>
+
+                        </div>
+
+
+                        <div class="project-role">
+
+                            <span>
+                                ROLE
+                            </span>
+
+                            <strong>
+                                Desktop Application Developer
+                            </strong>
+
+                        </div>
+
+
+                        <button
+                            class="project-open"
+                            type="button"
+                            data-project="hotel"
+                        >
+
+                            <span>
+                                View case study
+                            </span>
+
+                            <span>
+                                ↗
+                            </span>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="project-visual hotel-visual">
+
+                        <div class="visual-label">
+                            DATABASE / WINFORMS
+                        </div>
+
+
+                        <div class="database-map">
+
+                            <div class="db-node main-node">
+                                Reservation
+                            </div>
+
+                            <div class="db-line line-one"></div>
+
+                            <div class="db-node">
+                                ReservationRoom
+                            </div>
+
+                            <div class="db-line line-two"></div>
+
+                            <div class="db-node">
+                                Room
+                            </div>
+
+                            <div class="db-node">
+                                RoomType
+                            </div>
+
+                            <div class="db-node">
+                                Customer
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECT NOTE
+        ========================== -->
+
+        <section class="project-note">
+
+            <div class="container">
+
+                <div class="project-note-inner reveal">
+
+                    <span class="section-eyebrow">
+                        MORE IN PROGRESS
+                    </span>
+
+
+                    <h2>
+
+                        Not everything
+                        <span>needs to be shown.</span>
+
+                    </h2>
+
+
+                    <p>
+
+                        These projects represent selected work
+                        that reflects how I learn, experiment,
+                        and solve technical problems. More
+                        experiments and smaller projects continue
+                        behind the scenes.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         CASE STUDY MODAL
+    ========================== -->
+
+    <div
+        class="case-study"
+        id="caseStudy"
+        aria-hidden="true"
+    >
+
+        <div class="case-study-overlay"></div>
+
+
+        <div class="case-study-panel">
+
+            <button
+                class="case-study-close"
+                type="button"
+                aria-label="Close case study"
+            >
+                ×
+            </button>
+
+
+            <div class="case-study-content">
+
+                <div
+                    class="case-study-eyebrow"
+                    id="caseStudyCategory"
+                >
+                    PROJECT
+                </div>
+
+
+                <h2 id="caseStudyTitle">
+                    Project Title
+                </h2>
+
+
+                <p id="caseStudyDescription">
+                    Project description.
+                </p>
+
+
+                <div class="case-study-grid">
+
+                    <div>
+
+                        <span>
+                            ROLE
+                        </span>
+
+                        <strong id="caseStudyRole">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            STACK
+                        </span>
+
+                        <strong id="caseStudyStack">
+                            —
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="case-study-features">
+
+                    <span>
+                        KEY FEATURES
+                    </span>
+
+
+                    <ul id="caseStudyFeatures">
+                    </ul>
+
+                </div>
+
+
+                <div
+                    class="case-study-images"
+                    id="caseStudyImages"
+                >
+                </div>
+
+
+                <a
+                    href="#"
+                    id="caseStudyGithub"
+                    class="case-study-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <span>
+                        View source on GitHub
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <a
+                    href="./index.html"
+                    class="logo"
+                >
+                    CYA<span>.</span>
+                </a>
+
+
+                <p>
+                    Building, learning, and exploring technology.
+                </p>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © 2026 Christian Yusuf Alfred
+                </span>
+
+
+                <div class="footer-links">
+
+                    <a
+                        href="https://github.com/ALFREDS213"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/christian-yusuf-alfred/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+
+
+                    <a href="#">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
